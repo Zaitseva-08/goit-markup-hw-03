@@ -45,6 +45,7 @@ button {
 .page-header {
   border-bottom: 1px solid #e7e9fc;
 }
+
 .accent {
   color: #2e2f42;
 }
@@ -57,13 +58,11 @@ button {
   color: #4d5ae5;
   text-decoration: none;
   text-transform: uppercase;
-  padding: 24px 76px 24px 156px;
-  justify-content: flex-start;
   margin-right: 76px;
-  margin-bottom: 16px;
+ margin-left: 156px;
 }
 .menu {
-  display: inline-flex;
+  display: flex;
   gap: 40px;
 }
 .head-nav__link {
@@ -84,6 +83,7 @@ button {
   font-style: normal;
   display: flex;
   gap: 40px;
+  margin-right: 0;
   
 }
 
@@ -130,6 +130,8 @@ button {
   height: 56px;
   border: none;
   border-radius: 4px;
+  padding: 16px 32px;
+    margin: auto;
   
 }
 
@@ -164,6 +166,9 @@ overflow: hidden;
   gap: 24px;
   margin: auto;
 }
+.text-item {
+  width: calc((100% - 72px) / 4);
+} 
 .page-title-text {
   font-weight: 500;
   font-size: 20px;
@@ -189,16 +194,18 @@ margin-top: 72px;
 }
 .page-title-team {
   background: #fff;
+  width: calc((100% - 72px) / 4);
 }
 .menu-portfolio {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px
+  row-gap: 48px;
+  column-gap: 24px
   ;
 }
 .page-title-portfolio {
   border: 1px solid #e7e9fc;
-
+max-width: calc((100%-48px)/3);
 }
 .name {
   font-weight: 500;
@@ -221,6 +228,7 @@ margin-top: 72px;
 }
 .page-footer {
   background: #2e2f42;
+  padding: 100px 0;
 }
 .logo-footer {
   font-family: "Raleway", sans-serif;
@@ -231,6 +239,12 @@ margin-top: 72px;
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+  margin-bottom: 16px;
+
+  
+}
+.conteiner-footer{
+  margin-left: 156px;
 }
 .footer-accent {
   color: #f4f4fd;
@@ -240,4 +254,5 @@ margin-top: 72px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
