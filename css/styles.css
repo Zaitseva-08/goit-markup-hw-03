@@ -193,7 +193,6 @@ button {
   background: #f4f4fd;
 }
 .menu-title {
-  
   padding: 0px 0px 32px 0px;
   display: flex;
   gap: 24px;
@@ -217,7 +216,6 @@ button {
 }
 .team-list-container {
   padding: 32px 0;
-
 }
 .name {
   font-weight: 500;
@@ -226,7 +224,7 @@ button {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
- 
+  margin-bottom: 8px;
 }
 .name-text {
   font-size: 16px;
@@ -234,18 +232,16 @@ button {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
-
 }
 .portfolio-conteiner {
   padding: 32px 16px;
-  border: 1px solid #e7e9fc; 
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .portfolio-conteiner .name {
-
   text-align: start;
 }
 .portfolio-conteiner .name-text {
-
   text-align: start;
 }
 .page-footer {
