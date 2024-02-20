@@ -121,6 +121,7 @@ button {
   margin-left: auto;
   margin-bottom: 48px;
   max-width: 496px;
+  text-align: center;
 }
 .main-page-btn {
   font-family: inherit;
@@ -130,7 +131,6 @@ button {
   letter-spacing: 0.04em;
   color: #fff;
   background: #4d5ae5;
-  margin-top: 47px;
   display: block;
   min-width: 169px;
   height: 56px;
